@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(179, 179, 174);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: blue;
+}
+.highlight {
+    margin: 20px 10px;
+}
+a.highlight:hover {
+    font-weight: 200;
+    color: purple;
+    font-family: cursive;
+}
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+/**bar**/
+@media (min-width: 600px) {
+    .bar{
+        text-align: center;
+    }
+}
